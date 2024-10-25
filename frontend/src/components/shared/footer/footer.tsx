@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <footer className={cn("w-screen bg-gray-50 rounded-t-lg", shadows.sm)}>
       <hr className="my-6 border-muted-foreground sm:mx-auto lg:my-4 max-w-3xl rounded-xl" />
-      <span className="block text-sm text-muted-foreground sm:text-center mb-4">
+      <span className="block text-sm text-blue-600 sm:text-center mb-4">
         Made by{" "}
         <Link
-          to="https://github.com/jrTilak/"
+          to="https://github.com/nsalasz/"
           target="_blank"
-          className="hover:underline text-primary"
+          className="hover:underline text-blue-500"
         >
-          jrTilak
+          nsalasz
         </Link>{" "}
-        and other contributors. 🔥
+        . 🔥
       </span>
     </footer>
   );

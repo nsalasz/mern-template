@@ -10,5 +10,8 @@
     "mongodb"
   ],
   "author": "jrTilak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mern-template": "file:"
+  }
 }

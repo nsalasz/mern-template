@@ -4,12 +4,9 @@ interface NavItemTypes {
 }
 
 const navItems: NavItemTypes[] = [
+  
   {
-    label: "Home",
-    href: "/",
-  },
-  {
-    label: "About",
+    label: "Acerca de mi",
     href: "/about",
   },
 ];
